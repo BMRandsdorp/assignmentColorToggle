@@ -1,0 +1,57 @@
+body {
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+  }
+
+.toggleMenu {
+    width: 100px;
+    height: 100px;
+    background-image: url("../images/menu.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    cursor: pointer;
+}
+
+.menu-list {
+   /*optional css for using display none
+    display: none; */
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    margin-top: 0;
+    padding-top: 110px;
+    padding-left: 0;
+    width: 400px;
+    list-style: none;
+    transition: visibility 300ms ease-in-out, opacity 300ms ease-in-out; 
+}
+
+ul li {
+    max-width: 400px;
+    border: solid .5px #c3cfe2;
+    cursor: pointer;
+}
+
+.picked-color { 
+    display: flex;
+    margin-left: 500px;
+    margin-top: 0;
+}
+
+.base-bg {
+    background: lightgray;
+}
+.red-bg { 
+    background: red;}
+
+.purple-bg { 
+    background: purple;}
+
+.green-bg { 
+    background: green;}
+
+.blue-bg { 
+    background: blue; }
+
